@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" group="system" method="upgrade">
+	<name>PLG_SYS_WEBFONT4NET</name>
+	<author>Design4Net (Sergey Kupletsky)</author>
+	<creationDate>July 8, 2013</creationDate>
+	<copyright>Copyright by Design4Net (C) 2013. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>s_kupletsky@mail.ru</authorEmail>
+	<authorUrl>http://design4net.ru/</authorUrl>
+	<version>0.0.1</version>
+	<description>PLG_SYS_WEBFONT4NET_XML_DESCRIPTION</description>
+
+    <files>
+        <filename plugin="webfont4net">webfont4net.php</filename>
+        <filename>index.html</filename>
+        <filename>webfont4net.xml</filename>
+    </files>
+
+    <media folder="media" destination="design4net">
+        <folder>js</folder>
+    </media>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_webfont4net.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_webfont4net.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_system_webfont4net.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_system_webfont4net.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+            <fieldset name="basic">
+                <field name="local" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_LOCAL_LABEL" description="PLG_SYS_WEBFONT4NET_LOCAL_DESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+
+            <fieldset name="GOOGLE">
+                <field type="spacer" name="myspacer" label="&lt;hr/&gt;More parameters" />
+                <field type="spacer" name="spacer3"  hr="true"/>
+                <field name="subset" type="checkboxes" class="form-inline" default="Latin" label="PLG_SYS_WEBFONT4NET_GOOGLE_SUBSET_LABEL" description="PLG_SYS_WEBFONT4NET_GOOGLE_SUBSET_DESCRIPTION">
+                    <option class="checkbox inline" value="Cyrillic">Cyrillic</option>
+                    <option class="checkbox inline" value="Cyrillic Extended">Cyrillic Extended</option>
+                    <option class="checkbox inline" value="Greek">Greek</option>
+                    <option class="checkbox inline" value="Greek Extended">Greek Extended</option>
+                    <option class="checkbox inline" value="Khmer">Khmer</option>
+                    <option class="checkbox inline" value="Latin">Latin</option>
+                    <option class="checkbox inline" value="Latin Extended">Latin Extended</option>
+                    <option class="checkbox inline" value="Vietnamese">Vietnamese</option>
+                </field>
+            </fieldset>
+
+            <fieldset name="TYPEKIT">
+                <field name="spacer2" type="spacer" hr="true"/>
+            </fieldset>
+
+            <fieldset name="FONTDECK">
+                <field name="spacer2" type="spacer" hr="true"/>
+            </fieldset>
+
+            <fieldset name="FONTSCOM">
+                <field name="spacer2" type="spacer" hr="true"/>
+            </fieldset>
+
+            <fieldset name="CUSTOM">
+                <field name="spacer2" type="spacer" hr="true"/>
+            </fieldset>
+
+        </fields>
+	</config>
+	
+</extension>
