@@ -18,6 +18,7 @@
 
     <media folder="media" destination="design4net">
         <folder>js</folder>
+        <folder>fonts</folder>
     </media>
 	
 	<languages>
@@ -30,41 +31,92 @@
 	<config>
 		<fields name="params">
             <fieldset name="basic">
+                <field name="adminenabled" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_ADMIN_LABEL" description="PLG_SYS_WEBFONT4NET_ADMIN_DESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
                 <field name="local" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_LOCAL_LABEL" description="PLG_SYS_WEBFONT4NET_LOCAL_DESCRIPTION">
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
+                <field name="timeout" type="text" default="3000" size="40" label="PLG_SYS_WEBFONT4NET_TIMEOUT_LABEL" description="PLG_SYS_WEBFONT4NET_TIMEOUT_DESCRIPTION" />
             </fieldset>
 
             <fieldset name="GOOGLE">
-                <field type="spacer" name="myspacer" label="&lt;hr/&gt;More parameters" />
-                <field type="spacer" name="spacer3"  hr="true"/>
-                <field name="subset" type="checkboxes" class="form-inline" default="Latin" label="PLG_SYS_WEBFONT4NET_GOOGLE_SUBSET_LABEL" description="PLG_SYS_WEBFONT4NET_GOOGLE_SUBSET_DESCRIPTION">
-                    <option class="checkbox inline" value="Cyrillic">Cyrillic</option>
-                    <option class="checkbox inline" value="Cyrillic Extended">Cyrillic Extended</option>
-                    <option class="checkbox inline" value="Greek">Greek</option>
-                    <option class="checkbox inline" value="Greek Extended">Greek Extended</option>
-                    <option class="checkbox inline" value="Khmer">Khmer</option>
-                    <option class="checkbox inline" value="Latin">Latin</option>
-                    <option class="checkbox inline" value="Latin Extended">Latin Extended</option>
-                    <option class="checkbox inline" value="Vietnamese">Vietnamese</option>
+                <field name="googleLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_GOOGLE_LOAD_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
                 </field>
+                <field type="note" name="googleFamiliesNote" label="PLG_SYS_WEBFONT4NET_GOOGLE_FAMILIES" />
+                <field name="googleFamilies" type="textarea" default="" cols="4" rows="5" label="PLG_SYS_WEBFONT4NET_FAMILIES_LABEL" description="PLG_SYS_WEBFONT4NET_FAMILIES_DESCRIPTION" />
+
+                <field type="note" name="googleSubsetNote" label="PLG_SYS_WEBFONT4NET_GOOGLE_SUBSET" />
+                <field name="cyrillic" type="radio" class="btn-group" default="1" label="PLG_SYS_WEBFONT4NET_CYRILLIC_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="cyrillicE" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_CYRILLIC_E_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="latin" type="radio" class="btn-group" default="1" label="PLG_SYS_WEBFONT4NET_LATIN_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="latinE" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_LATIN_E_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="greek" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_GREEK_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="greekE" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_GREEK_E_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="khmer" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_KHMER_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="vietnamese" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_VIETNAMESE_LABEL" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
             </fieldset>
 
             <fieldset name="TYPEKIT">
-                <field name="spacer2" type="spacer" hr="true"/>
+                <field name="typekitLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_TYPEKIT_LOAD_LABEL" description="PLG_SYS_WEBFONT4NET_TYPEKIT_LOAD_DESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="typekitId" type="text" default="" size="40" label="PLG_SYS_WEBFONT4NET_TYPEKIT_ID_LABEL" description="PLG_SYS_WEBFONT4NET_TYPEKIT_ID_DESCRIPTION" />
             </fieldset>
 
             <fieldset name="FONTDECK">
-                <field name="spacer2" type="spacer" hr="true"/>
+                <field name="fontdeckLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_FONTDECK_LOAD_LABEL" description="PLG_SYS_WEBFONT4NET_FONTDECK_LOAD_DESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="fontdeckId" type="text" default="" size="40" label="PLG_SYS_WEBFONT4NET_FONTDECK_ID_LABEL" description="PLG_SYS_WEBFONT4NET_FONTDECK_ID_DESCRIPTION" />
             </fieldset>
 
             <fieldset name="FONTSCOM">
-                <field name="spacer2" type="spacer" hr="true"/>
+                <field name="fontscomLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_FONTSCOM_LOAD_LABEL" description="PLG_SYS_WEBFONT4NET_FONTSCOM_LOAD_DESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="fontscomId" type="text" default="" size="40" label="PLG_SYS_WEBFONT4NET_FONTSCOM_ID_LABEL" description="PLG_SYS_WEBFONT4NET_FONTSCOM_ID_DESCRIPTION" />
             </fieldset>
 
             <fieldset name="CUSTOM">
-                <field name="spacer2" type="spacer" hr="true"/>
+                <field name="customLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_CUSTOM_LOAD_LABEL" description="PLG_SYS_WEBFONT4NET_CUSTOM_LOAD_DESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="customFile" type="filelist" default="example.css" label="PLG_SYS_WEBFONT4NET_CUSTOM_CSS_LABEL" description="PLG_SYS_WEBFONT4NET_CUSTOM_CSS_DESCRIPTION" directory="media/design4net/fonts" filter="" exclude="" stripext="" />
+                <field name="customFamilies" type="textarea" default="" cols="4" rows="5" label="PLG_SYS_WEBFONT4NET_FAMILIES_LABEL" description="PLG_SYS_WEBFONT4NET_FAMILIES_DESCRIPTION" />
             </fieldset>
 
         </fields>
