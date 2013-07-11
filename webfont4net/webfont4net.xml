@@ -7,7 +7,7 @@
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorEmail>s_kupletsky@mail.ru</authorEmail>
 	<authorUrl>http://design4net.ru/</authorUrl>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<description>PLG_SYS_WEBFONT4NET_XML_DESCRIPTION</description>
 
     <files>
@@ -43,12 +43,11 @@
             </fieldset>
 
             <fieldset name="GOOGLE">
-                <field name="googleLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_GOOGLE_LOAD_LABEL" description="">
+                <field name="googleLoad" type="radio" class="btn-group" default="0" label="PLG_SYS_WEBFONT4NET_GOOGLE_LOAD_LABEL" description="PLG_SYS_WEBFONT4NET_GOOGLE_LOAD_DESCRIPTION">
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
-                <field type="note" name="googleFamiliesNote" label="PLG_SYS_WEBFONT4NET_GOOGLE_FAMILIES" />
-                <field name="googleFamilies" type="textarea" default="" cols="4" rows="5" label="PLG_SYS_WEBFONT4NET_FAMILIES_LABEL" description="PLG_SYS_WEBFONT4NET_FAMILIES_DESCRIPTION" />
+                <field name="googleFamilies" type="textarea" default="PT Sans:n,i,b" cols="4" rows="5" label="PLG_SYS_WEBFONT4NET_FAMILIES_LABEL" description="PLG_SYS_WEBFONT4NET_FAMILIES_DESCRIPTION" />
 
                 <field type="note" name="googleSubsetNote" label="PLG_SYS_WEBFONT4NET_GOOGLE_SUBSET" />
                 <field name="cyrillic" type="radio" class="btn-group" default="1" label="PLG_SYS_WEBFONT4NET_CYRILLIC_LABEL" description="">
@@ -115,8 +114,8 @@
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
-                <field name="customFile" type="filelist" default="example.css" label="PLG_SYS_WEBFONT4NET_CUSTOM_CSS_LABEL" description="PLG_SYS_WEBFONT4NET_CUSTOM_CSS_DESCRIPTION" directory="media/design4net/fonts" filter="" exclude="" stripext="" />
-                <field name="customFamilies" type="textarea" default="" cols="4" rows="5" label="PLG_SYS_WEBFONT4NET_FAMILIES_LABEL" description="PLG_SYS_WEBFONT4NET_FAMILIES_DESCRIPTION" />
+                <field name="customFile" type="filelist" default="example.css" label="PLG_SYS_WEBFONT4NET_CUSTOM_CSS_LABEL" description="PLG_SYS_WEBFONT4NET_CUSTOM_CSS_DESCRIPTION" directory="media/design4net/fonts" filter=".css" exclude="" stripext="" hide_none="true" hide_default="true"/>
+                <field name="customFamilies" type="textarea" default="PT Sans" cols="4" rows="5" label="PLG_SYS_WEBFONT4NET_FAMILIES_LABEL" description="PLG_SYS_WEBFONT4NET_FAMILIES_DESCRIPTION" />
             </fieldset>
 
         </fields>

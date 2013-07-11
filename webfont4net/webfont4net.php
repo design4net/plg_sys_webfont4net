@@ -157,7 +157,7 @@ class plgSystemWebFont4Net extends JPlugin {
                 $custom_families = array();
                 $custom_families = explode("\r\n", $this->params->get('customFamilies'));
 
-                $custom .= "families: ['" . implode("', ", $custom_families) . "']," . "\n";
+                $custom .= "families: ['" . implode("', '", $custom_families) . "']," . "\n";
                 $custom .= "urls: ['" . JURI::base() . "media/design4net/fonts/" . $custom_file . "']" . "\n";
 
                 $custom .= "}";
@@ -182,6 +182,9 @@ class plgSystemWebFont4Net extends JPlugin {
         }
         if ($custom) {
             $modules[] = $custom;
+        }
+        if ($timeout) {
+            $modules[] = "timeout:" . $timeout;
         }
 
         if ($modules) {

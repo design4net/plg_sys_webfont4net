@@ -6,16 +6,23 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373327852437" ignored="false" />
     <file path="/webfont4net.php" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373383629623" ignored="false" />
-    <file path="/webfont4net.xml" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373393935062" ignored="false" />
+    <file path="/webfont4net.xml" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373520061374" ignored="false" />
     <file path="$PROJECT_DIR$/../MetaTag/meta4net/meta4net.xml" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373311926726" ignored="false" />
     <file path="/meta4net.xml" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373311926726" ignored="false" />
     <file path="/ru-RU.plg_system_webfont4net.sys.ini" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373374162936" ignored="false" />
-    <file path="/ru-RU.plg_system_webfont4net.ini" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373382784228" ignored="false" />
+    <file path="/ru-RU.plg_system_webfont4net.ini" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373395284790" ignored="false" />
     <file path="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/templates/gantry/index.php" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373392503369" ignored="false" />
     <file path="/index.php" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373343795249" ignored="false" />
     <file path="$PROJECT_DIR$/../../10 - Дизайн4нет/00 - a.Design4net/plugins/system/meta4net/meta4net.php" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373371311437" ignored="false" />
-    <file path="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/media/design4net/fonts/fonts.css" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373391329713" ignored="false" />
     <file path="/fonts.css" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373391322067" ignored="false" />
+    <file path="/style.less" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373470516688" ignored="false" />
+    <file path="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/templates/gantry/less/style.less" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373470898589" ignored="false" />
+    <file path="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/templates/gantry/less/menu.less" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373468648944" ignored="false" />
+    <file path="/menu4net.less" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373470096342" ignored="false" />
+    <file path="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/templates/gantry/less/menu4net.less" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373471113659" ignored="false" />
+    <file path="/en-GB.plg_system_webfont4net.sys.ini" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373519329731" ignored="false" />
+    <file path="/en-GB.plg_system_webfont4net.ini" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373519601884" ignored="false" />
+    <file path="/example.css" changelist="5cd64f2d-56db-42f1-9143-b4b3f514a68e" time="1373520302643" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,16 @@
       <file leaf-file-name="webfont4net.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webfont4net/webfont4net.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="749" selection-end="749" vertical-scroll-proportion="0.30289534">
+            <state line="49" column="83" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.22383073">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webfont4net/fonts/example.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="27" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -47,7 +63,7 @@
       <file leaf-file-name="webfont4net.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webfont4net/webfont4net.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="56" selection-start="5093" selection-end="5093" vertical-scroll-proportion="-101.34615">
+            <state line="159" column="57" selection-start="5001" selection-end="5001" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
@@ -56,7 +72,25 @@
       <file leaf-file-name="ru-RU.plg_system_webfont4net.ini" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="42" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0">
+            <state line="34" column="46" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.plg_system_webfont4net.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="129" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.plg_system_webfont4net.sys.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.sys.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="129" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,7 +99,7 @@
       <file leaf-file-name="ru-RU.plg_system_webfont4net.sys.ini" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.sys.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="195" selection-end="622" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,8 +125,12 @@
       <list>
         <option value="$PROJECT_DIR$/../../10 - Дизайн4нет/00 - a.Design4net/plugins/system/webfont4net/webfont4net.php" />
         <option value="$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.sys.ini" />
-        <option value="$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini" />
+        <option value="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/media/design4net/fonts/fonts.css" />
         <option value="$PROJECT_DIR$/webfont4net/webfont4net.php" />
+        <option value="$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini" />
+        <option value="$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini" />
+        <option value="$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.sys.ini" />
+        <option value="$PROJECT_DIR$/webfont4net/fonts/example.css" />
         <option value="$PROJECT_DIR$/webfont4net/webfont4net.xml" />
       </list>
     </option>
@@ -201,6 +239,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebFont4Net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebFont4Net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webfont4net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-GB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebFont4Net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebFont4Net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webfont4net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -222,7 +300,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -307,13 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.sys.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="195" selection-end="622" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../10 - Дизайн4нет/00 - a.Design4net/plugins/system/webfont4net/webfont4net.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="42" selection-start="508" selection-end="508" vertical-scroll-proportion="0.23050848">
@@ -321,23 +392,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini">
+    <entry file="file://$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/media/design4net/fonts/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0">
+        <state line="8" column="23" selection-start="344" selection-end="344" vertical-scroll-proportion="0.1492865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webfont4net/webfont4net.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="56" selection-start="5093" selection-end="5093" vertical-scroll-proportion="-101.34615">
+        <state line="159" column="57" selection-start="5001" selection-end="5001" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="129" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="129" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="46" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webfont4net/fonts/example.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webfont4net/webfont4net.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="749" selection-end="749" vertical-scroll-proportion="0.30289534">
+        <state line="49" column="83" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.22383073">
           <folding />
         </state>
       </provider>
