@@ -42,10 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="webfont4net.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="webfont4net.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webfont4net/webfont4net.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="83" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.22383073">
+            <state line="49" column="83" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en-GB.plg_system_webfont4net.ini" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="en-GB.plg_system_webfont4net.ini" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="129" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="56" column="47" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.7193764">
               <folding />
             </state>
           </provider>
@@ -128,10 +128,10 @@
         <option value="$PROJECT_DIR$/../../18 - WikiLeads/00 - Рабочая копия 3.0/media/design4net/fonts/fonts.css" />
         <option value="$PROJECT_DIR$/webfont4net/webfont4net.php" />
         <option value="$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini" />
-        <option value="$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini" />
         <option value="$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.sys.ini" />
         <option value="$PROJECT_DIR$/webfont4net/fonts/example.css" />
         <option value="$PROJECT_DIR$/webfont4net/webfont4net.xml" />
+        <option value="$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini" />
       </list>
     </option>
   </component>
@@ -420,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="129" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webfont4net/language/ru-RU/ru-RU.plg_system_webfont4net.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="46" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
@@ -443,7 +436,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webfont4net/webfont4net.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="83" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.22383073">
+        <state line="49" column="83" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webfont4net/language/en-GB/en-GB.plg_system_webfont4net.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="47" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.7193764">
           <folding />
         </state>
       </provider>
